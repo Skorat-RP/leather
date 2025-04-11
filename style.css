@@ -1,45 +1,142 @@
+
+.logo {
+    width: 150px;             /* Ширина логотипа, можно настроить по необходимости */
+    height: auto;             /* Высота логотипа пропорциональна ширине */
+    position: absolute;       /* Абсолютное позиционирование */
+    top: 1rem;                /* Отступ сверху */
+    left: 1rem;               /* Отступ слева */
+}
+
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fdfdfc;
-  color: #333;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-  background-color: #efece7;
-  padding: 2rem;
-  text-align: center;
+    background-color: #efece7;
+    padding: 1rem;
+    text-align: center;
 }
 
-h1 {
-  margin: 0;
-  font-size: 2.5rem;
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
 }
 
-.gallery {
-  padding: 2rem;
+nav a:hover {
+    text-decoration: underline;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+.products {
+    padding: 2rem;
+    flex: 1;
 }
 
-.grid img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #ccc;
-  border-radius: 8px;
+.product {
+    margin-bottom: 3rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 2rem;
 }
 
-.about, .contact {
-  padding: 2rem;
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product-gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5;
 }
 
 footer {
-  background-color: #efece7;
-  text-align: center;
-  padding: 1rem;
+    background-color: #efece7;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+#about-text {
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 20px; /* Расстояние между картинкой и текстом */
+}
+
+.about-image {
+    width: 150px; /* Ширина картинки */
+    height: 150px; /* Высота картинки для круга */
+    object-fit: cover; /* Обрезаем изображение, чтобы оно заполнило круг */
+    border-radius: 50%; /* Делает изображение круглым */
+    border: 3px solid #000; /* Добавляем обводку, если хочешь */
+}
+
+.text {
+    flex: 1; /* Текст занимает оставшееся пространство */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .logo {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100px;
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .about-content {
+        flex-direction: column; /* Элементы располагаются вертикально */
+        align-items: center; /* Выравнивание по центру */
+    }
+
+    .about-image {
+        width: 100px; /* Меньше изображение на мобильных устройствах */
+        height: 100px; /* Меньше высота */
+        margin-bottom: 20px; /* Отступ снизу для картинки */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Уменьшаем размер заголовка для мобильных устройств */
+    }
+
+    .text {
+        text-align: center; /* Центрируем текст на мобильных устройствах */
+    }
 }

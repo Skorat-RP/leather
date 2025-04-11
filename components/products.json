@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Portfel skórzany",
+    "images": [
+      "images/wallet/wallet1.jpg",
+      "images/wallet/wallet2.jpg",
+      "images/wallet/wallet3.jpg"
+    ],
+    "description": "Piękny ręcznie robiony portfel z naturalnej skóry. Idealny na prezent lub codzienne użytkowanie.",
+    "price": 200
+  },
+  {
+    "title": "Pochwa na nóż",
+    "images": [
+      "images/knifeSheath/knifeSheath1.jpg",
+      "images/knifeSheath/knifeSheath2.jpg",
+      "images/knifeSheath/knifeSheath3.jpg"
+    ],
+    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "price": 150
+  },
+  {
+    "title": "Etui na documenty z kotem",
+    "images": [
+      "images/docHolderCat/docHolderCat1.jpg",
+      "images/docHolderCat/docHolderCat2.jpg",
+      "images/docHolderCat/docHolderCat3.jpg"
+    ],
+    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "price": 300
+  },
+  {
+    "title": "Etui na klucze",
+    "images": [
+      "images/keyHolder/keyHolder1.jpg",
+      "images/keyHolder/keyHolder2.jpg",
+      "images/keyHolder/keyHolder3.jpg"
+    ],
+    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "price": 100
+  },
+  {
+    "title": "Pasek damski skórzany",
+    "images": [
+      "images/brownBeltF/brownBelt1.jpg",
+      "images/brownBeltF/brownBelt2.jpg"
+    ],
+    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "price": 300
+  },
+  {
+    "title": "Portfel na monety",
+    "images": [
+      "images/coinPurse/coinPurse1.jpg",
+      "images/coinPurse/coinPurse2.jpg",
+      "images/coinPurse/coinPurse3.jpg"
+    ],
+    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "price": 120
+  }
+]
