@@ -39,6 +39,31 @@ nav a:hover {
     flex: 1;
 }
 
+.intro {
+    padding: 2rem;
+    flex: 1;
+}
+
+.highlight {
+    padding: 2rem;
+    flex: 1;
+}
+
+.gallery-preview {
+    padding: 2rem;
+    flex: 1;
+}
+
+.call-to-action {
+    padding: 2rem;
+    flex: 1;
+}
+
+.contact {
+    padding: 2rem;
+    flex: 1;
+}
+
 .product {
     margin-bottom: 3rem;
     border-bottom: 2px solid #ccc;
