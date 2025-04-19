@@ -10,18 +10,33 @@ async function loadProducts() {
 
 function renderProducts(products) {
     const container = document.getElementById("products");
-    container.innerHTML = products.map(product => `
-        <div class="product">
-            <h2>${product.title}</h2>
-            <div class="product-gallery">
-                ${product.images.map(src => `<img src="${src}" />`).join("")}
-            </div>
-            <p class="description">
-                ${product.description}<br>
-                Cena: ${product.price} szczurcoinów
-            </p>
-        </div>
-    `).join("");
+    const template = document.getElementById("product-template");
+
+    container.innerHTML = "";
+
+    products.forEach(product => {
+        const clone = template.content.cloneNode(true);
+
+        clone.querySelector(".title").textContent = product.title.pl;
+
+        const gallery = clone.querySelector(".product-gallery");
+        product.images.forEach(src => {
+            const img = document.createElement("img");
+            img.src = src;
+            gallery.appendChild(img);
+        });
+
+        clone.querySelector(".size").innerHTML = `
+            ${product.size.pl}<br>
+        `;
+
+        clone.querySelector(".description").innerHTML = `
+            ${product.description.pl}<br><br>
+            Cena: ${product.price} szczurcoinów
+        `;
+
+        container.appendChild(clone);
+    });
 }
 
 loadProducts();

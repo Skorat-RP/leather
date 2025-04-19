@@ -98,6 +98,13 @@ h2 {
     margin-bottom: 10px;
 }
 
+.note {
+    font-style: italic;
+    font-size: 0.9em;
+    max-width: 800px;
+    color: #555;
+}
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;

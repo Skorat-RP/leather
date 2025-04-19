@@ -1,61 +1,141 @@
 [
   {
-    "title": "Portfel skórzany",
+    "title": {
+      "pl": "Portfel skórzany",
+      "en": "Leather Wallet"
+    },
     "images": [
       "images/wallet/wallet1.jpg",
       "images/wallet/wallet2.jpg",
       "images/wallet/wallet3.jpg"
     ],
-    "description": "Piękny ręcznie robiony portfel z naturalnej skóry. Idealny na prezent lub codzienne użytkowanie.",
+    "description": {
+      "pl": "Wykonany łapkami Mistrza z najwyższą starannością – ten portfel uszyty jest ze skóry typu crazy horse, która pięknie się starzeje i z czasem nabiera charakteru. Kompaktowy, ale pomieści wszystko, co ważne – karty, banknoty, trochę sera (ale to już wedle uznania).",
+      "en": "Leather Wallet"
+    },
+    "size": {
+      "pl": "Rozmiar: 9,5 x 8,5 cm\uD83D\uDC3E",
+      "en": "Size: 9,5 x 8,5 cm\uD83D\uDC3E"
+    },
     "price": 200
   },
   {
-    "title": "Pochwa na nóż",
+    "title": {
+      "pl": "Pochwa na nóż",
+      "en": "Knife sheath"
+    },
     "images": [
       "images/knifeSheath/knifeSheath1.jpg",
       "images/knifeSheath/knifeSheath2.jpg",
       "images/knifeSheath/knifeSheath3.jpg"
     ],
-    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "description": {
+      "pl": "Wykonane z grubej skóry, w kolorze czerwonym i zabezpieczone wytrzymałym, odpornym na ścieranie wykończeniem. Inspirowane wyjątkowymi chwilami przy szaszłykach.",
+      "en": "Leather Wallet"
+    },
+    "size": {
+      "pl": "Rozmiar: 6,5 x 22 cm\uD83D\uDC3E",
+      "en": "Size: 6,5 x 22 cm\uD83D\uDC3E"
+    },
     "price": 150
   },
   {
-    "title": "Etui na documenty z kotem",
+    "title": {
+      "pl": "Etui na documenty \"Meow\"",
+      "en": "Document holder Meow"
+    },
     "images": [
       "images/docHolderCat/docHolderCat1.jpg",
       "images/docHolderCat/docHolderCat2.jpg",
       "images/docHolderCat/docHolderCat3.jpg"
     ],
-    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "description": {
+      "pl": "Ręcznie wykonana obwoluta z naturalnej skóry, barwiona na intensywną czerwień i postarzana ciemną patyną, która nadaje jej głębi i wyjątkowego charakteru.To nie tylko etui – to małe skórzane dzieło sztuki, w którym spotykają się kocia elegancja i rzemieślnicza dusza Mistrza.",
+      "en": "Leather Wallet"
+    },
+    "size": {
+      "pl": "Rozmiar: 10 x 14 cm\uD83D\uDC3E",
+      "en": "Size: 10 x 14 cm\uD83D\uDC3E"
+    },
     "price": 300
   },
   {
-    "title": "Etui na klucze",
+    "title": {
+      "pl": "Etui na klucze",
+      "en": "Key holder"
+    },
     "images": [
       "images/keyHolder/keyHolder1.jpg",
       "images/keyHolder/keyHolder2.jpg",
       "images/keyHolder/keyHolder3.jpg"
     ],
-    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "description": {
+      "pl": "Wykonany ze skóry typu Crazy Horse, która z czasem nabiera rustykalnego i vintage'owego charakteru. Mistrz zaprojektował to etui, by klucze były zawsze w jednym miejscu – bez zagubienia w zakamarkach torby czy kieszeni.",
+      "en": "Leather Wallet"
+    },
+    "size": {
+      "pl": "Rozmiar: 8 x 14,5 cm\uD83D\uDC3E",
+      "en": "Size: 8 x 14,5 cm\uD83D\uDC3E"
+    },
     "price": 100
   },
   {
-    "title": "Pasek damski skórzany",
+    "title": {
+      "pl": "Pasek damski",
+      "en": "Women's belt"
+    },
     "images": [
       "images/brownBeltF/brownBelt1.jpg",
       "images/brownBeltF/brownBelt2.jpg"
     ],
-    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "description": {
+      "pl": "Wykonany ręcznie z naturalnej skóry, barwionej na klasyczny brąz. Uzupełniony solidną, mosiężną klamrą, która dodaje mu charakteru. Mistrz stworzył ten pasek z myślą o tych, którzy cenią rzemiosło, wygodę i odrobinę dzikiego szyku.",
+      "en": "Leather Wallet"
+    },
+    "size": {
+      "pl": "Rozmiar: 3-4 cm x 90-120 cm\uD83D\uDC3E",
+      "en": "Size: 3-4 cm x 90-120 cm\uD83D\uDC3E"
+    },
     "price": 300
   },
   {
-    "title": "Portfel na monety",
+    "title": {
+      "pl": "Portfel na monety",
+      "en": "Coin purse"
+    },
     "images": [
       "images/coinPurse/coinPurse1.jpg",
       "images/coinPurse/coinPurse2.jpg",
       "images/coinPurse/coinPurse3.jpg"
     ],
-    "description": "Wysokiej jakości etui na documenty wykonane z grubej skóry. Ochrona i elegancja w jednym.",
+    "description": {
+      "pl": "Ręcznie wykonana z wytrzymałej skóry typu Crazy Horse, inspirowana średniowiecznym stylem — ściągana skórzanym rzemykiem i ozdobiona tłoczeniem kociej łapki. Mistrz Szczur twierdzi, że taka sakiewka to nie tylko praktyczne miejsce na drobniaki, ale też magiczny amulet na pomyślność",
+      "en": "Coin purse"
+    },
+    "size": {
+      "pl": "Rozmiar: 7 x 7 x 10 cm\uD83D\uDC3E",
+      "en": "Size:  7 x 7 x 10 cm\uD83D\uDC3E"
+    },
+    "price": 120
+  },
+  {
+    "title": {
+      "pl": "Skórzany choker",
+      "en": "Leather choker"
+    },
+    "images": [
+      "images/choker/choker1.jpg",
+      "images/choker/choker2.jpg",
+      "images/choker/choker3.jpg"
+    ],
+    "description": {
+      "pl": "Wykonany z najwyższej jakości skóry, czarna zewnętrzna strona i czerwona wewnętrzna część tworzą wyjątkowy efekt. Choker ozdobiony wyciętą kocią łapką, co nadaje mu unikalny charakter i sprawia, że staje się on nie tylko dodatkiem, ale też małym dziełem sztuk.",
+      "en": "Leather choker"
+    },
+    "size": {
+      "pl": "Rozmiar: 2 x 42 cm\uD83D\uDC3E",
+      "en": "Size:  2 x 42 cm\uD83D\uDC3E"
+    },
     "price": 120
   }
 ]
