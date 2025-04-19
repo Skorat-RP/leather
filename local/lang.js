@@ -9,7 +9,8 @@ function loadLanguage(lang) {
     .then(data => {
       for (const key in data) {
         const el = document.getElementById(key);
-        if (el) el.textContent = data[key];
+        if (el) text = data[key];
+        el.innerHTML = text;
       }
     });
 }
