@@ -137,5 +137,26 @@
       "en": "Size:  2 x 42 cm\uD83D\uDC3E"
     },
     "price": 120
+  },
+  {
+    "title": {
+      "pl": "Pasek skórzany do zegarka  \"Ranger\"",
+      "en": "Leather watch straps"
+    },
+    "images": [
+      "images/watchBracelet/watchBraceletR1.jpg",
+      "images/watchBracelet/watchBraceletR2.jpg",
+      "images/watchBracelet/watchBraceletR3.jpg"
+    ],
+    "description": {
+      "pl": "Ten wyjątkowy pasek na zegarek został stworzony przez zręczne łapki i pomalowany na głęboki czerwony kolor, inspirowany najnowszymi przygodami Mistrza. Niektórzy twierdzą, że przypomina zbroję samego Czerwonego Rangera – pełen charakteru, gotów na każdą misję.",
+      "en": "Leather choker"
+    },
+    "size": {
+      "pl": "Rozmiar: 6.5 x 28 cm\uD83D\uDC3E",
+      "en": "Size:  6.5 x 28 cm\uD83D\uDC3E"
+    },
+    "price": 170
   }
+
 ]
