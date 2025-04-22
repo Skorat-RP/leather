@@ -1,13 +1,14 @@
 
 .logo {
-    width: 150px;             /* Ширина логотипа, можно настроить по необходимости */
-    height: auto;             /* Высота логотипа пропорциональна ширине */
-    position: absolute;       /* Абсолютное позиционирование */
-    top: 1rem;                /* Отступ сверху */
-    left: 1rem;               /* Отступ слева */
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
 }
 
 body {
+    visibility: hidden;
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
@@ -102,20 +103,20 @@ footer {
 
 .about-content {
     display: flex;
-    align-items: center; /* Выравнивание по вертикали */
-    gap: 20px; /* Расстояние между картинкой и текстом */
+    align-items: center;
+    gap: 20px;
 }
 
 .about-image {
-    width: 150px; /* Ширина картинки */
-    height: 150px; /* Высота картинки для круга */
-    object-fit: cover; /* Обрезаем изображение, чтобы оно заполнило круг */
-    border-radius: 50%; /* Делает изображение круглым */
-    border: 3px solid #000; /* Добавляем обводку, если хочешь */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #000;
 }
 
 .text {
-    flex: 1; /* Текст занимает оставшееся пространство */
+    flex: 1;
 }
 
 h2 {
@@ -154,21 +155,21 @@ h2 {
     }
 
     .about-content {
-        flex-direction: column; /* Элементы располагаются вертикально */
-        align-items: center; /* Выравнивание по центру */
+        flex-direction: column;
+        align-items: center;
     }
 
     .about-image {
-        width: 100px; /* Меньше изображение на мобильных устройствах */
-        height: 100px; /* Меньше высота */
-        margin-bottom: 20px; /* Отступ снизу для картинки */
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
     }
 
     h2 {
-        font-size: 1.5em; /* Уменьшаем размер заголовка для мобильных устройств */
+        font-size: 1.5em;
     }
 
     .text {
-        text-align: center; /* Центрируем текст на мобильных устройствах */
+        text-align: center;
     }
 }

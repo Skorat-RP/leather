@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Produkty - Rękodzieło ze skóry</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="local/lang.js"></script>
 </head>
 <body>
 
 <header>
     <img src="images/logo.png" alt="Skórat Logo" class="logo">
-    <h1>Produkty</h1>
+    <h1 id="header_prod">Produkty</h1>
     <p id="header_desc">Tworzone z pasją… i małymi łapkami</p>
     <nav>
-        <a href="index.html">Strona główna</a> |
-        <a href="about.html">O mnie</a> |
-        <a href="contact.html">Kontakt</a>
+        <a href="index.html" id="nav_home">Strona główna</a> |
+        <a href="products.html" id="nav_products">Produkty</a> |
+        <a href="about.html" id="nav_about">O mnie</a> |
+        <a href="contact.html" id="nav_contact">Kontakt</a>
     </nav>
 </header>
 
@@ -31,7 +33,7 @@
 <section class="products" id="products"></section>
 <script src="components/products.js"></script>
 
-<p class="note">
+<p class="note" id="note">
     🐾 Uwaga: każdy egzemplarz może nieco się różnić – w końcu każda łapka zostawia unikalny ślad.
 </p>
 

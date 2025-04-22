@@ -11,13 +11,16 @@
     ],
     "description": {
       "pl": "Wykonany łapkami Mistrza z najwyższą starannością – ten portfel uszyty jest ze skóry typu crazy horse, która pięknie się starzeje i z czasem nabiera charakteru. Kompaktowy, ale pomieści wszystko, co ważne – karty, banknoty, trochę sera (ale to już wedle uznania).",
-      "en": "Leather Wallet"
+      "en": "Crafted with the Master's own paws and utmost care – this wallet is crafted from crazy horse leather, which ages beautifully and develops a rich patina over time. Compact, yet spacious enough to hold everything important – cards, cash, a bit of cheese (though that's up to you)"
     },
     "size": {
       "pl": "Rozmiar: 9,5 x 8,5 cm\uD83D\uDC3E",
       "en": "Size: 9,5 x 8,5 cm\uD83D\uDC3E"
     },
-    "price": 200
+    "price": {
+      "pl": "Cena: 200 szczurcoinów",
+      "en": "Price: 200 ratcoins"
+    }
   },
   {
     "title": {
@@ -31,18 +34,21 @@
     ],
     "description": {
       "pl": "Wykonane z grubej skóry, w kolorze czerwonym i zabezpieczone wytrzymałym, odpornym na ścieranie wykończeniem. Inspirowane wyjątkowymi chwilami przy szaszłykach.",
-      "en": "Leather Wallet"
+      "en": "Crafted from thick red leather and finished with a durable, abrasion-resistant coating. Inspired by unforgettable moments shared over grilled meat."
     },
     "size": {
       "pl": "Rozmiar: 6,5 x 22 cm\uD83D\uDC3E",
       "en": "Size: 6,5 x 22 cm\uD83D\uDC3E"
     },
-    "price": 150
+    "price": {
+      "pl": "Cena: 150 szczurcoinów",
+      "en": "Price: 150 ratcoins"
+    }
   },
   {
     "title": {
       "pl": "Etui na documenty \"Meow\"",
-      "en": "Document holder Meow"
+      "en": "Document holder \"Meow\""
     },
     "images": [
       "images/docHolderCat/docHolderCat1.jpg",
@@ -51,13 +57,16 @@
     ],
     "description": {
       "pl": "Ręcznie wykonana obwoluta z naturalnej skóry, barwiona na intensywną czerwień i postarzana ciemną patyną, która nadaje jej głębi i wyjątkowego charakteru.To nie tylko etui – to małe skórzane dzieło sztuki, w którym spotykają się kocia elegancja i rzemieślnicza dusza Mistrza.",
-      "en": "Leather Wallet"
+      "en": "A handcrafted cover made from natural leather, dyed a deep, vivid red and aged with a dark patina that gives it depth and unique character. This is more than just a case – it’s a small piece of art where feline elegance meets the artisan soul of the Maestro."
     },
     "size": {
       "pl": "Rozmiar: 10 x 14 cm\uD83D\uDC3E",
       "en": "Size: 10 x 14 cm\uD83D\uDC3E"
     },
-    "price": 300
+    "price": {
+      "pl": "Cena: 300 szczurcoinów",
+      "en": "Price: 300 ratcoins"
+    }
   },
   {
     "title": {
@@ -71,13 +80,16 @@
     ],
     "description": {
       "pl": "Wykonany ze skóry typu Crazy Horse, która z czasem nabiera rustykalnego i vintage'owego charakteru. Mistrz zaprojektował to etui, by klucze były zawsze w jednym miejscu – bez zagubienia w zakamarkach torby czy kieszeni.",
-      "en": "Leather Wallet"
+      "en": "Handcrafted from Crazy Horse leather, which develops a rustic, vintage patina with time. The Maestro designed this case to keep your keys always in one place – no more getting lost in the depths of your bag or pockets."
     },
     "size": {
       "pl": "Rozmiar: 8 x 14,5 cm\uD83D\uDC3E",
       "en": "Size: 8 x 14,5 cm\uD83D\uDC3E"
     },
-    "price": 100
+    "price": {
+      "pl": "Cena: 100 szczurcoinów",
+      "en": "Price: 100 ratcoins"
+    }
   },
   {
     "title": {
@@ -90,13 +102,16 @@
     ],
     "description": {
       "pl": "Wykonany ręcznie z naturalnej skóry, barwionej na klasyczny brąz. Uzupełniony solidną, mosiężną klamrą, która dodaje mu charakteru. Mistrz stworzył ten pasek z myślą o tych, którzy cenią rzemiosło, wygodę i odrobinę dzikiego szyku.",
-      "en": "Leather Wallet"
+      "en": "Crafted from natural leather, dyed in a classic brown. Finished with a solid brass buckle that adds character. The Maestro created this belt with those in mind who appreciate craftsmanship, comfort, and a touch of wild style."
     },
     "size": {
       "pl": "Rozmiar: 3-4 cm x 90-120 cm\uD83D\uDC3E",
       "en": "Size: 3-4 cm x 90-120 cm\uD83D\uDC3E"
     },
-    "price": 300
+    "price": {
+      "pl": "Cena: 300 szczurcoinów",
+      "en": "Price: 300 ratcoins"
+    }
   },
   {
     "title": {
@@ -109,14 +124,17 @@
       "images/coinPurse/coinPurse3.jpg"
     ],
     "description": {
-      "pl": "Ręcznie wykonana z wytrzymałej skóry typu Crazy Horse, inspirowana średniowiecznym stylem — ściągana skórzanym rzemykiem i ozdobiona tłoczeniem kociej łapki. Mistrz Szczur twierdzi, że taka sakiewka to nie tylko praktyczne miejsce na drobniaki, ale też magiczny amulet na pomyślność",
-      "en": "Coin purse"
+      "pl": "Ręcznie wykonana z wytrzymałej skóry typu Crazy Horse, inspirowana średniowiecznym stylem — ściągana skórzanym rzemykiem i ozdobiona tłoczeniem kociej łapki. Mistrz Szczur twierdzi, że taka sakiewka to nie tylko praktyczne miejsce na drobniaki, ale też magiczny amulet na pomyślność.",
+      "en": "Handcrafted from durable Crazy Horse leather, inspired by medieval style — secured with a leather cord and adorned with an embossed cat paw print. Maestro Rat claims that this pouch is not just a practical place for loose change, but also a magical amulet for good fortune."
     },
     "size": {
       "pl": "Rozmiar: 7 x 7 x 10 cm\uD83D\uDC3E",
       "en": "Size:  7 x 7 x 10 cm\uD83D\uDC3E"
     },
-    "price": 120
+    "price": {
+      "pl": "Cena: 120 szczurcoinów",
+      "en": "Price: 120 ratcoins"
+    }
   },
   {
     "title": {
@@ -130,18 +148,21 @@
     ],
     "description": {
       "pl": "Wykonany z najwyższej jakości skóry, czarna zewnętrzna strona i czerwona wewnętrzna część tworzą wyjątkowy efekt. Choker ozdobiony wyciętą kocią łapką, co nadaje mu unikalny charakter i sprawia, że staje się on nie tylko dodatkiem, ale też małym dziełem sztuk.",
-      "en": "Leather choker"
+      "en": "Crafted from the highest quality leather, with a black exterior and a red interior, creating a unique effect. The choker is adorned with a cut-out cat paw, giving it a distinctive character and making it not just an accessory, but a small work of art."
     },
     "size": {
       "pl": "Rozmiar: 2 x 42 cm\uD83D\uDC3E",
       "en": "Size:  2 x 42 cm\uD83D\uDC3E"
     },
-    "price": 120
+    "price": {
+      "pl": "Cena: 120 szczurcoinów",
+      "en": "Price: 120 ratcoins"
+    }
   },
   {
     "title": {
       "pl": "Pasek skórzany do zegarka  \"Ranger\"",
-      "en": "Leather watch straps"
+      "en": "Leather watch straps \"Ranger\""
     },
     "images": [
       "images/watchBracelet/watchBraceletR1.jpg",
@@ -150,13 +171,16 @@
     ],
     "description": {
       "pl": "Ten wyjątkowy pasek na zegarek został stworzony przez zręczne łapki i pomalowany na głęboki czerwony kolor, inspirowany najnowszymi przygodami Mistrza. Niektórzy twierdzą, że przypomina zbroję samego Czerwonego Rangera – pełen charakteru, gotów na każdą misję.",
-      "en": "Leather choker"
+      "en": "This unique watch strap was crafted by skilled paws and painted in a deep red, inspired by the latest adventures of the Maestro. Some say it resembles the armor of the Red Ranger himself – full of character and ready for any mission."
     },
     "size": {
       "pl": "Rozmiar: 6.5 x 28 cm\uD83D\uDC3E",
       "en": "Size:  6.5 x 28 cm\uD83D\uDC3E"
     },
-    "price": 170
+    "price": {
+      "pl": "Cena: 170 szczurcoinów",
+      "en": "Price: 170 ratcoins"
+    }
   }
 
 ]

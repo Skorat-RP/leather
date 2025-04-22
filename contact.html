@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kontakt - Skórat</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="local/lang.js"></script>
 </head>
 <body>
 
 <header>
     <img src="images/logo.png" alt="Skórat Logo" class="logo">
-    <h1>Kontakt</h1>
-    <p>Masz pytania? Skontaktuj się z nami!</p>
+    <h1 id="header_contact">Kontakt</h1>
+    <p id="header_desc_contact">Masz pytania? Skontaktuj się ze mną!</p>
     <nav>
-        <a href="index.html">Strona główna</a> |
-        <a href="products.html">Produkty</a> |
-        <a href="about.html">O mnie</a> |
-        <a href="contact.html">Kontakt</a>
+        <a href="index.html" id="nav_home">Strona główna</a> |
+        <a href="products.html" id="nav_products">Produkty</a> |
+        <a href="about.html" id="nav_about">O mnie</a> |
+        <a href="contact.html" id="nav_contact">Kontakt</a>
     </nav>
 </header>
 
 <main>
     <section class="contact">
-        <h2>Napisz do mnie</h2>
-        <p>Najlepiej złapać mnie przez:</p>
+        <h2 id="main_contact">Napisz do mnie</h2>
+        <p id="main_contact_desc">Najlepiej złapać mnie przez:</p>
         <ul>
             <li>Email: <a href="mailto:kontakt@skorat.pl">kontakt@skorat.pl</a></li>
             <li>Instagram: <a href="https://instagram.com/skorat.leather" target="_blank">@skorat.leather</a></li>
-            <li>Telefon: +48 600 000 000</li>
+            <li><span id="phone_label">Telefon</span>: <span id="phone_number">+48 600 000 000</span></li>
         </ul>
-        <p><small>* Możesz też napisać do mnie bezpośrednio przez social media.</small></p>
     </section>
 </main>
 

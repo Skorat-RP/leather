@@ -1,3 +1,4 @@
+
 async function loadProducts() {
     try {
         const response = await fetch('components/products.json');
@@ -8,7 +9,13 @@ async function loadProducts() {
     }
 }
 
+function getLanguage() {
+    const savedLang = localStorage.getItem('language');
+    return savedLang || 'pl';
+  }
+
 function renderProducts(products) {
+    const language = getLanguage();
     const container = document.getElementById("products");
     const template = document.getElementById("product-template");
 
@@ -17,7 +24,7 @@ function renderProducts(products) {
     products.forEach(product => {
         const clone = template.content.cloneNode(true);
 
-        clone.querySelector(".title").textContent = product.title.pl;
+        clone.querySelector(".title").textContent = product.title[language];
 
         const gallery = clone.querySelector(".product-gallery");
         product.images.forEach(src => {
@@ -27,12 +34,12 @@ function renderProducts(products) {
         });
 
         clone.querySelector(".size").innerHTML = `
-            ${product.size.pl}<br>
+            ${product.size[language]}<br>
         `;
 
         clone.querySelector(".description").innerHTML = `
-            ${product.description.pl}<br><br>
-            Cena: ${product.price} szczurcoinów
+            ${product.description[language]}<br><br>
+            ${product.price[language]}
         `;
 
         container.appendChild(clone);
