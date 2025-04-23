@@ -19,7 +19,13 @@ function loadLanguage(lang) {
 
   fetch(`local/${lang}.json`)
     .then(res => res.json())
-    .then(applyLanguage);
+    .then(data => {
+      applyLanguage(data);
+
+      if (document.getElementById('products')) {
+        loadProducts();
+      }
+    });
 }
 
 (function () {
