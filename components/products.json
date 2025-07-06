@@ -55,6 +55,33 @@
   },
   {
     "title": {
+      "pl": "Portfel koci skórzany",
+      "en": "Leather cat wallet",
+      "ru": "Кожаный котокошелек"
+    },
+    "images": [
+      "images/WalletCatBr/walletCat1.jpg",
+      "images/WalletCatBr/walletCat2.jpg",
+      "images/WalletCatBr/walletCat3.jpg"
+    ],
+    "description": {
+      "pl": "Wkrótce pojawi się tutaj opis",
+      "en": "Description coming soon...",
+      "ru": "Скоро тут будет описание..."
+    },
+    "size": {
+      "pl": "Rozmiar: 9,5 x 8,5 cm\uD83D\uDC3E",
+      "en": "Size: 9,5 x 8,5 cm\uD83D\uDC3E",
+      "ru": "Размер: 9,5 x 8,5 см\uD83D\uDC3E"
+    },
+    "price": {
+      "pl": "Cena: 250 szczurcoinów",
+      "en": "Price: 250 ratcoins",
+      "ru": "Цена: 250 крыслингов"
+    }
+  },
+  {
+    "title": {
       "pl": "Czarna torebka skóżana",
       "en": "Black leather bag",
       "ru": "Черная кожанная сумочка"
@@ -293,6 +320,33 @@
       "pl": "Cena: 100 szczurcoinów",
       "en": "Price: 100 ratcoins",
       "ru": "Цена: 100 крыслингов"
+    }
+  },
+  {
+    "title": {
+      "pl": "Brelok",
+      "en": "Key tag",
+      "ru": "Брелок"
+    },
+    "images": [
+      "images/keyTag/keyTag1.jpg",
+      "images/keyTag/keyTag2.jpg",
+      "images/keyTag/keyTag3.jpg"
+    ],
+    "description": {
+      "pl": "Wkrótce pojawi się tutaj opis",
+      "en": "Description coming soon...",
+      "ru": "Скоро тут будет описание..."
+    },
+    "size": {
+      "pl": "Rozmiar: 4.5 x 5 cm\uD83D\uDC3E",
+      "en": "Size:  4.5 x 5 cm\uD83D\uDC3E",
+      "ru": "Размер: 4.5 x 5 см\uD83D\uDC3E"
+    },
+    "price": {
+      "pl": "Cena: 50 szczurcoinów",
+      "en": "Price: 50 ratcoins",
+      "ru": "Цена: 50 крыслингов"
     }
   }
 
